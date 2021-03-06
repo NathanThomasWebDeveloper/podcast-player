@@ -1,19 +1,9 @@
-// @flow
-import * as React from 'react'
-import styled from 'styled-components'
-import AudioPlayerContainer from "./components/AudioPlayerContainer";
+import './App.css';
 
-type Props = {}
-
-const Wrapper = styled.div`
-  display: block
-`
-
-function App(props: Props) {
+function App() {
     return (
-        <Wrapper>
-            <AudioPlayerContainer/>
-        </Wrapper>
+        <div className="App">
+        </div>
     );
 }
 
