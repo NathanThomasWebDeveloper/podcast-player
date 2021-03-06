@@ -1,0 +1,11 @@
+[ignore]
+
+[include]
+react.runtime=automatic
+[libs]
+
+[lints]
+
+[options]
+
+[strict]
