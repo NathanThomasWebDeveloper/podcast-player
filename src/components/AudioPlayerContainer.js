@@ -2,7 +2,6 @@
 import * as React from 'react'
 import styled from 'styled-components'
 import Loader from "../UI/Loader";
-import {useState} from "react/cjs/react.production.min";
 import PlayerControls from "./PlayerControls";
 import Slider from "../UI/Slider";
 import VolumeControl from "./VolumeControl";
@@ -16,7 +15,7 @@ const Wrapper = styled.div`
 `
 
 const AudioPlayerContainer = (props: Props) => {
-    const [isReady, setIsReady] = useState(false)
+    const [isReady, setIsReady] = React.useState(false)
     return (<Wrapper>
         {isReady ? <Loader/> :
             <React.Fragment>
