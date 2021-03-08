@@ -7,7 +7,8 @@ test('Renders AudioInfo', () => {
 });
 test('renders image if in props', () => {
     render(<AudioInfo {...EXAMPLE_PodcastInfo}/>)
-    screen.getByRole('image')
+    const image = screen.getByRole('image')
+    expect(image.src).toContain(EXAMPLE_PodcastInfo.image)
 })
 test('render description if in props', () => {
     render(<AudioInfo {...EXAMPLE_PodcastInfo}/>)

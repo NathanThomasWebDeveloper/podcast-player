@@ -4,7 +4,6 @@ import styled from 'styled-components'
 import type {PodcastInfo} from "../Types";
 
 
-
 const Wrapper = styled.div`
   display: block
 `

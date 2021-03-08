@@ -1,9 +1,13 @@
 // @flow
 import * as React from 'react'
 import styled from 'styled-components'
+import type {AudioControls, AudioState} from "../Types";
 
-type Props = {}
 
+type Props = {
+    audioControls: AudioControls,
+    audioState: AudioState
+}
 const Wrapper = styled.div`
   display: block
 `

@@ -25,3 +25,13 @@ export const EXAMPLE_PodCastData = {
     image: "https://storage.googleapis.com/in_mythology/icarus.jpg",
     audio: "https://storage.googleapis.com/in_mythology/episodes/Icarus_128kbps.mp3"
 }
+
+export type AudioControls = {
+    play: () => void,
+    pause: () => void,
+    rewind: () => void,
+    forward: () => void,
+}
+
+
+export type AudioState = "PLAYING" | "PAUSED"

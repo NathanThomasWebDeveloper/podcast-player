@@ -19,7 +19,7 @@ const AudioPlayerContainer = (props: Props) => {
     return (<Wrapper>
         {isReady ? <Loader/> :
             <React.Fragment>
-                <AudioInfo />
+                <AudioInfo/>
                 <PlayerControls/>
                 <Slider/>
                 <VolumeControl/>
