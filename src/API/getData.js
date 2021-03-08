@@ -1,12 +1,6 @@
 // @flow
 
-export type PodcastData = {
-    title: string,
-    episodeTitle: string,
-    description: string,
-    image: string,
-    audio: string
-}
+import type {PodcastData} from "../Types";
 
 export const getData = (): PodcastData => ({
     title: "In Mythology and Legends",
