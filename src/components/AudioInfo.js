@@ -1,14 +1,15 @@
 // @flow
 import * as React from 'react'
 import styled from 'styled-components'
+import type {PodcastInfo} from "../Types";
 
-type Props = {}
+
 
 const Wrapper = styled.div`
   display: block
 `
 
-const AudioInfo = (props: Props) => {
+const AudioInfo = (props: PodcastInfo) => {
     return (<Wrapper>
         CONTENT
     </Wrapper>)
